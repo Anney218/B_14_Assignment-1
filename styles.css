@@ -215,3 +215,105 @@ body {
   font-size: 0.9rem;
   color: #475569;
 }
+pricing-section {
+  padding: 6.5rem 0;
+  background-color: #f8fafc;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 3rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-card.featured {
+  background-color: #0b1329;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+}
+
+.card-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.featured .card-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.plan-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #475569;
+  margin-bottom: 0.75rem;
+}
+
+.featured .plan-label {
+  color: #eff6ff;
+}
+
+.price {
+  font-size: 3.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.featured .price {
+  color: #ffffff;
+}
+
+.price .dollar {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-right: 0.15rem;
+  margin-top: 0.2rem;
+}
+
+.period {
+  display: block;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.features {
+  list-style-type: disc;
+  margin-bottom: 2.5rem;
+  padding-left: 1.25rem;
+}
+
+.features li {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 0.75rem;
+}
+
+.features li::marker {
+  color: #1e53e5;
+}
+
+.featured .features li {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.pricing-card .btn {
+  width: 100%;
+}
