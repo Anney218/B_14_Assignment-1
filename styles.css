@@ -152,3 +152,66 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.speakers-section {
+  padding: 6.5rem 0;
+  background-color: #ffffff;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.speaker-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+.speaker-photo {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.speaker-details {
+  padding: 1.75rem;
+}
+
+.track-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.label-ai {
+  color: #2563eb;
+}
+
+.label-cloud {
+  color: #0284c7;
+}
+
+.label-frontend {
+  color: #3b82f6;
+}
+
+.label-security {
+  color: #4f46e5;
+}
+
+.speaker-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.speaker-title {
+  font-size: 0.9rem;
+  color: #475569;
+}
