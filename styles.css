@@ -344,3 +344,58 @@ pricing-section {
 .sponsor-logo i {
   font-size: 2.25rem;
 }
+.footer {
+  background-color: #0b1329;
+  padding: 4rem 0 3rem 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer-logo img {
+  height: 38px;
+  display: block;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #94a3b8;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  color: #ffffff;
+  background-color: #1e53e5;
+}
+
+.footer-divider {
+  border: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.875rem;
+  color: #94a3b8;
+}
